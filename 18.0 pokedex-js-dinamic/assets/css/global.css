@@ -1,0 +1,210 @@
+*{
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0;
+    
+}
+
+.content h1{
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.num-element{
+    display: flex;
+    width: 95%;
+    justify-content: right;
+    margin-bottom: 1rem ;
+}
+
+label{
+    margin-right: 1rem;
+}
+
+body {
+    background-color: #EE1515;
+}
+
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+
+#btLoad{
+    margin: 1rem;
+    padding: 0.75rem;
+    border-radius: 5%;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #000;
+    border: #000;
+
+}
+
+  @media only screen and (min-width: 1050px) {
+    body{
+        background-image: url("../images/1045.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        min-height: 100px;
+    }
+
+    .texto-principal{
+        background-color: #B70203;
+    }
+    #btLoad{    
+        background-color: #B70203;
+        border: #fff;
+    }
+
+}
+
+.pokemons{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.poke{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+    min-width: 250px;
+}
+
+.type{
+    color: white;
+    padding: 0.25rem 0.5rem;
+    margin: .25rem 0;
+    border-radius: 20%;
+    text-align: center;
+    filter: brightness(0.8);
+}
+
+.poke .detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nome-poke{
+    margin: .25rem;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.poke .detail img{
+    max-width: 70%;
+    width: 100px;
+    height: 100px;
+}
+
+.poke .types{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
+
+.number-poke{
+    color: #000;
+    opacity: 0.5;
+    text-align: right;
+}
+
+.bug{
+    background-color: #8F8A85;
+}
+
+.dark{
+    background-color: #3E2D22;
+}
+
+.dragon{
+    background-color: #7963DF;
+}
+
+.electric{
+    background-color: #EC9C0A;
+}
+
+.fairy{
+    background-color: #F1AFF6;
+}
+
+.fighting{
+    background-color: #723520;
+}
+
+.fire{
+    background-color: #ED420E;
+}
+
+.flying{
+    background-color: #91A5EB;
+}
+
+.ghost{
+    background-color: #5D5FB0;
+}
+
+.grass{
+    background-color: #14A06F;
+}
+
+.ground{
+    background-color: #D7B65C;
+}
+
+.ice{
+    background-color: #F9E0E9;
+}
+
+.normal{
+    background-color: #C5C0B7;
+}
+
+.poison{
+    background-color: #924794;
+}
+
+.psychic{
+    background-color: #E74B82;
+}
+
+.rock{
+    background-color: #A18941;
+}
+
+.steel{
+    background-color: #9191A1;
+}
+
+.water{
+    background-color: #1E68BF;
+}
